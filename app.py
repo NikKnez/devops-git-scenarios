@@ -2,7 +2,7 @@
 # Production application
 
 def calculate_price(amount):
-    tax = 0.20
+    tax = 0.21  # Fixed: Was 0.20, should be 0.21
     return amount * (1 + tax)
 
 if __name__ == "__main__":
