@@ -2,7 +2,7 @@
 # Production application
 
 def calculate_price(amount, discount=0):
-    tax = 0.20
+    tax = 0.21  # Using fixed tax rate
     discounted = amount * (1 - discount)
     return discounted * (1 + tax)
 
